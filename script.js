@@ -1,6 +1,5 @@
-// ===============================
+
 // PRELOADER
-// ===============================
 
 window.addEventListener("load", () => {
 
@@ -12,9 +11,7 @@ window.addEventListener("load", () => {
 
 });
 
-// ===============================
 // MOBILE MENU
-// ===============================
 
 const menuBtn = document.getElementById("menuBtn");
 const navLinks = document.getElementById("navLinks");
@@ -46,9 +43,7 @@ document.querySelectorAll(".nav-links a").forEach(link => {
 
 });
 
-// ===============================
 // TYPING EFFECT
-// ===============================
 
 const typingElement =
 document.getElementById("typing-text");
@@ -108,9 +103,7 @@ function typeEffect() {
 
 typeEffect();
 
-// ===============================
 // SCROLL REVEAL
-// ===============================
 
 const revealElements =
 document.querySelectorAll(".reveal");
@@ -136,9 +129,7 @@ revealElements.forEach(element=>{
     revealObserver.observe(element);
 });
 
-// ===============================
 // SKILL BAR ANIMATION
-// ===============================
 
 const skillCards =
 document.querySelectorAll(".skill-card");
@@ -178,9 +169,7 @@ skillCards.forEach(card=>{
     skillObserver.observe(card);
 });
 
-// ===============================
 // ACTIVE NAVBAR LINK
-// ===============================
 
 const sections =
 document.querySelectorAll("section");
@@ -223,9 +212,7 @@ window.addEventListener("scroll", ()=>{
 
 });
 
-// ===============================
 // BACK TO TOP BUTTON
-// ===============================
 
 const topBtn =
 document.getElementById("topBtn");
@@ -253,9 +240,7 @@ topBtn.addEventListener("click", ()=>{
 
 });
 
-// ===============================
 // PARTICLE BACKGROUND
-// ===============================
 
 const particleContainer =
 document.getElementById("particles");
@@ -311,9 +296,7 @@ function createParticles(){
 
 createParticles();
 
-// ===============================
 // PARTICLE KEYFRAME
-// ===============================
 
 const style =
 document.createElement("style");
@@ -348,9 +331,7 @@ style.innerHTML = `
 
 document.head.appendChild(style);
 
-// ===============================
 // HERO PARALLAX EFFECT
-// ===============================
 
 const heroImage =
 document.querySelector(".hero-image");
@@ -370,9 +351,7 @@ document.addEventListener("mousemove",(e)=>{
 
 });
 
-// ===============================
 // PROJECT CARD HOVER TILT
-// ===============================
 
 const projectCards =
 document.querySelectorAll(".project-card");
@@ -413,9 +392,7 @@ projectCards.forEach(card=>{
 
 });
 
-// ===============================
 // SMOOTH APPEARANCE
-// ===============================
 
 document.body.style.opacity = "0";
 
@@ -432,9 +409,7 @@ window.addEventListener("load",()=>{
 
 });
 
-// ===============================
 // CURRENT YEAR FOOTER
-// ===============================
 
 const footer =
 document.querySelector("footer p");

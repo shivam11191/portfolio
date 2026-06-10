@@ -1,12 +1,7 @@
-/* ========================= */
-/* GOOGLE FONT */
-/* ========================= */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-/* ========================= */
 /* ROOT */
-/* ========================= */
 
 :root{
     --bg:#050505;
@@ -28,9 +23,7 @@
     --transition:.4s ease;
 }
 
-/* ========================= */
 /* RESET */
-/* ========================= */
 
 *{
     margin:0;
@@ -60,9 +53,7 @@ img{
     display:block;
 }
 
-/* ========================= */
 /* CUSTOM SCROLLBAR */
-/* ========================= */
 
 ::-webkit-scrollbar{
     width:8px;
@@ -77,9 +68,7 @@ img{
     border-radius:20px;
 }
 
-/* ========================= */
 /* PRELOADER */
-/* ========================= */
 
 #preloader{
     position:fixed;
@@ -113,9 +102,7 @@ img{
     visibility:hidden;
 }
 
-/* ========================= */
 /* BACKGROUND */
-/* ========================= */
 
 .background-wrapper{
     position:fixed;
@@ -189,9 +176,7 @@ img{
     }
 }
 
-/* ========================= */
 /* NAVBAR */
-/* ========================= */
 
 .header{
     width:100%;
@@ -212,6 +197,7 @@ img{
 
     padding:25px 5%;
 
+    -webkit-backdrop-filter:blur(12px);
     backdrop-filter:blur(12px);
 
     background:rgba(5,5,5,.45);
@@ -248,9 +234,7 @@ img{
     cursor:pointer;
 }
 
-/* ========================= */
 /* HERO */
-/* ========================= */
 
 .hero{
     min-height:100vh;
@@ -397,9 +381,7 @@ img{
     box-shadow:var(--shadow);
 }
 
-/* ========================= */
 /* SECTIONS */
-/* ========================= */
 
 .section{
     padding:120px 8%;
@@ -421,9 +403,7 @@ img{
     font-size:3rem;
 }
 
-/* ========================= */
 /* GLASS CARD */
-/* ========================= */
 
 .about-card,
 .skill-card,
@@ -433,7 +413,8 @@ img{
 .timeline-content{
     background:var(--card-bg);
 
-    backdrop-filter:blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
 
     border:1px solid var(--border);
 
@@ -454,9 +435,7 @@ img{
     margin-bottom:15px;
 }
 
-/* ========================= */
 /* TIMELINE */
-/* ========================= */
 
 .timeline{
     position:relative;
@@ -505,9 +484,7 @@ img{
     margin-left:auto;
 }
 
-/* ========================= */
 /* SKILLS */
-/* ========================= */
 
 .skills-container{
     display:grid;
@@ -582,9 +559,7 @@ img{
 .visualization{width:90%;}
 .dashboard{width:85%;}
 
-/* ========================= */
 /* PROJECTS */
-/* ========================= */
 
 .projects-grid{
     display:grid;
@@ -620,7 +595,8 @@ img{
 .project-content{
     padding:25px;
     background: rgba(17, 17,17,0.6);
-    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
 }
 
 .project-content h3{
@@ -650,30 +626,30 @@ img{
     border-radius:30px;
 }
 
-/* ========================= */
 /* CERTIFICATIONS */
-/* ========================= */
 
 .certification-grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
     gap:30px;
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
 }
 
 .cert-card{
     text-align:center;
+    color: var(--gold);
     padding:40px;
+    
 }
 
-.cert-card i{
+/* .cert-card i{
     font-size:3rem;
     color:var(--gold);
     margin-bottom:20px;
-}
+} */
 
-/* ========================= */
 /* CONTACT */
-/* ========================= */
 
 .contact-grid{
     display:grid;
@@ -692,9 +668,7 @@ img{
     margin-bottom:15px;
 }
 
-/* ========================= */
 /* FOOTER */
-/* ========================= */
 
 footer{
     text-align:center;
@@ -703,9 +677,7 @@ footer{
     color:#888;
 }
 
-/* ========================= */
 /* BACK TO TOP */
-/* ========================= */
 
 #topBtn{
     position:fixed;
@@ -732,9 +704,7 @@ footer{
     z-index:100;
 }
 
-/* ========================= */
 /* REVEAL ANIMATION */
-/* ========================= */
 
 .reveal{
     opacity:0;
@@ -747,9 +717,7 @@ footer{
     transform:translateY(0);
 }
 
-/* ========================= */
 /* RESPONSIVE */
-/* ========================= */
 
 @media(max-width:992px){
 
