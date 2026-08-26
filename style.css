@@ -600,8 +600,31 @@ img{
 }
 
 .project-content h3{
-    color:var(--gold);
     margin-bottom:15px;
+}
+
+.project-content h3 a,
+.project-content h3 a:link,
+.project-content h3 a:visited,
+.project-content h3 a:hover,
+.project-content h3 a:active{
+    color: var(--gold);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.project-content h3 a i{
+    font-size: .9rem;
+    transition: .3s ease;
+}
+
+.project-content h3 a:hover i{
+    transform: translate(5px,-5px);
 }
 
 .project-content p{
